@@ -1,0 +1,20 @@
+import { ReactNode } from 'react';
+
+interface {{ pascalCase name }}Props {
+    children?: ReactNode;
+}
+/** 
+    server components 입니다.
+    hooks 를 사용할 수 없습니다.
+    onClick, onChange 등의 이벤트를 사용할 수 없습니다.
+    browser API를 사용하지 마세요
+  */
+const {{ pascalCase name }} = ({ children }: {{ pascalCase name }}Props) => {
+    return (
+        <div>
+            {children}
+        </div>
+    );
+};
+
+export default {{ pascalCase name }};

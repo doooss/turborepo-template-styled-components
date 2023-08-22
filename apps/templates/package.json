@@ -1,0 +1,29 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^13.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.7",
+    "@ds/ui": "workspace:*",
+    "@ds/utils": "workspace:*",
+    "@ds/hooks": "workspace:*",
+    "@ds/theme": "workspace:*"
+  },
+  "devDependencies": {
+    "@ds/config": "workspace:*",
+    "@types/node": "^17.0.12",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "eslint-config-custom": "workspace:*",
+    "typescript": "^5.1.6"
+  }
+}

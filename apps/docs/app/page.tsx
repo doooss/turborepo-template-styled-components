@@ -1,10 +1,9 @@
-import { Button, Header } from "ui";
+import { Button } from '@ds/ui';
 
 export default function Page() {
-  return (
-    <>
-      <Header text="Docs" />
-      <Button />
-    </>
-  );
+    return (
+        <>
+            <Button>123</Button>
+        </>
+    );
 }
