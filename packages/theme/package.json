@@ -3,8 +3,6 @@
   "version": "0.0.0",
   "scripts": {
     "lint": "eslint \"**/*.ts*\"",
-    "generate:component": "turbo gen react-component",
-    "test": "jest --passWithNoTests",
     "storybook": "storybook dev -p 6006"
   },
   "main": "./src/index.ts",
